@@ -8,7 +8,5 @@ import static org.example.jobsearch.CommanderFunctions.buildCommanderWithName;
 public class JobSearch {
     public static void main(String[] args) {
         JCommander jCommander = buildCommanderWithName("job-search", CLIArguments::newInstance);
-
-        
     }
 }
