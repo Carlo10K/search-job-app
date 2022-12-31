@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="71495caf-a8b4-4f96-aa68-ecf2f52c8e16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/CommanderFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/CommanderFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIJobs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIArguments.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +46,12 @@
                 <item name="job-search" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="job-search" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="distribution" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -83,7 +93,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.job-search [run]">
+  <component name="RunManager" selected="Gradle.job-search [distZip]">
     <configuration name="job-search [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -96,6 +106,27 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="job-search [distZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="distZip" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,6 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.job-search [distZip]" />
         <item itemvalue="Gradle.job-search [run]" />
         <item itemvalue="Gradle.job-search [build]" />
       </list>

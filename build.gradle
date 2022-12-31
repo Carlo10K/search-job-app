@@ -27,6 +27,9 @@ dependencies {
     // https://mvnrepository.com/artifact/io.github.openfeign/feign-gson
     implementation group: 'io.github.openfeign', name: 'feign-gson', version: '12.1'
 
+    // https://mvnrepository.com/artifact/io.github.cdimascio/java-dotenv
+    implementation group: 'io.github.cdimascio', name: 'java-dotenv', version: '5.2.2'
+
 
 }
 

@@ -22,10 +22,36 @@ public class CLIArguments {
     private String location;
 
     @Parameter(
+            names = {"--type", "-t"},
+            description = "FULLTIME, CONTRACTOR, PARTTIME, INTERN"
+    )
+    private String type;
+
+
+    @Parameter(
             names = {"--page", "p"},
             description = "La API devuelve 50 resultados, usa un numero para la pagina"
     )
-    private int page = 0;
+    private int page=1;
+
+    @Parameter(
+            names = {"--numpage", "-np"},
+            description = "La API devuelve 50 resultados, cuantas paginas quieres"
+    )
+    private int numPages=1;
+
+
+    @Parameter(
+            names = {"--dateposted", "-d"},
+            description = "all, today, 3days, week, month"
+    )
+    private String datePosted = "all";
+
+    @Parameter(
+            names = {"--remote", "-r"},
+            description = "Agrega si queremos trabajos en remoto"
+    )
+    private boolean isRemote;
 
     @Parameter(
             names = "--help",
@@ -35,6 +61,19 @@ public class CLIArguments {
     )
     private boolean isHelp;
 
+
+    public int getPage() {
+        return page;
+    }
+
+    public int getNumPages() {
+        return numPages;
+    }
+
+    public String getDatePosted() {
+        return datePosted;
+    }
+
     public String getKeyword() {
         return keyword;
     }
@@ -43,8 +82,12 @@ public class CLIArguments {
         return location;
     }
 
-    public int getPage() {
-        return page;
+    public String getType() {
+        return type;
+    }
+
+    public boolean isRemote() {
+        return isRemote;
     }
 
     public boolean isHelp() {
@@ -56,7 +99,11 @@ public class CLIArguments {
         return "CLIArguments{" +
                 "keyword='" + keyword + '\'' +
                 ", location='" + location + '\'' +
+                ", type='" + type + '\'' +
                 ", page=" + page +
+                ", numPages=" + numPages +
+                ", datePosted='" + datePosted + '\'' +
+                ", isRemote=" + isRemote +
                 ", isHelp=" + isHelp +
                 '}';
     }

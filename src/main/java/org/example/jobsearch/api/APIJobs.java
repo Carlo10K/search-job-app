@@ -11,7 +11,7 @@ import java.util.Map;
 @Headers("Accept: application/json")
 public interface APIJobs {
 
-    @RequestLine("POST /")
+    @RequestLine("GET /search")
     List<JobPosition> jobs(@QueryMap Map<String, Object> queryMap);
 
 
