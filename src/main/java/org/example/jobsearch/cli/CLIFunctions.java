@@ -1,5 +1,7 @@
 package org.example.jobsearch.cli;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,15 +10,15 @@ public class CLIFunctions {
         Map<String, Object> params = new HashMap<>();
 
         params.put("query", cliArguments.getKeyword());
-        params.put("location", cliArguments.getLocation());
-        params.put("type", cliArguments.getType());
+        params.put("employment_types", cliArguments.getType());
         params.put("page", cliArguments.getPage());
-        params.put("numpage", cliArguments.getNumPages());
-        params.put("dateposted", cliArguments.getDatePosted());
+        params.put("num_pages", cliArguments.getNumPages());
+        params.put("date_posted", cliArguments.getDatePosted());
 
         if(cliArguments.isRemote()){
-            params.put("remote", true);
+            params.put("remote_jobs_only",true);
         }
+
 
         return params;
     }

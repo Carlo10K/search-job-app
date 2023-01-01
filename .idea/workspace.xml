@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="71495caf-a8b4-4f96-aa68-ecf2f52c8e16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/CommanderFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/CommanderFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/data/JobPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIJobs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,18 +82,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/carlo/Escritorio/Estudio/Curso-Java/Curso-JavaSEFunctional/job-search",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/carlo/Escritorio/Estudio/Curso-Java/Curso-JavaSEFunctional/job-search&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.job-search [distZip]">
+    <configuration name="JobSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jobsearch.JobSearch" />
+      <module name="job-search.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jobsearch.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="job-search [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,6 +174,7 @@
       <list>
         <item itemvalue="Gradle.job-search [distZip]" />
         <item itemvalue="Gradle.job-search [run]" />
+        <item itemvalue="Application.JobSearch" />
         <item itemvalue="Gradle.job-search [build]" />
       </list>
     </recent_temporary>

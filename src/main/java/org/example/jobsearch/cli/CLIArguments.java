@@ -9,17 +9,11 @@ public class CLIArguments {
 
     @Parameter(
         required = true,
-        descriptionKey = "KEYWORD",
+        descriptionKey = "query",
         validateWith = CLIKeywordValidator.class,
-        description = "KEYWORD"
+        description = "query"
     )
     private String keyword;
-
-    @Parameter(
-            names = {"--location", "-l"},
-            description = "Cada busqueda puede incluir una ubicacion"
-    )
-    private String location;
 
     @Parameter(
             names = {"--type", "-t"},
@@ -78,10 +72,6 @@ public class CLIArguments {
         return keyword;
     }
 
-    public String getLocation() {
-        return location;
-    }
-
     public String getType() {
         return type;
     }
@@ -98,7 +88,6 @@ public class CLIArguments {
     public String toString() {
         return "CLIArguments{" +
                 "keyword='" + keyword + '\'' +
-                ", location='" + location + '\'' +
                 ", type='" + type + '\'' +
                 ", page=" + page +
                 ", numPages=" + numPages +

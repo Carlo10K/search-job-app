@@ -5,6 +5,8 @@ import io.github.cdimascio.dotenv.Dotenv;
 import org.example.jobsearch.api.APIJobs;
 import org.example.jobsearch.cli.CLIArguments;
 import org.example.jobsearch.cli.CLIFunctions;
+import org.example.jobsearch.data.JobData;
+import org.example.jobsearch.data.JobPosition;
 
 import java.util.*;
 import java.util.stream.Stream;
@@ -16,6 +18,7 @@ import static org.example.jobsearch.api.APIFunctions.buildAPI;
 public class JobSearch {
     private static final Dotenv dotenv = Dotenv.load();
     private static final String API = dotenv.get("API_URL");
+
     public static void main(String[] args) {
         JCommander jCommander = buildCommanderWithName("job-search", CLIArguments::newInstance);
 
@@ -35,8 +38,8 @@ public class JobSearch {
                 .forEach(System.out::println);
     }
 
-    private static Stream<JobPosition> executeRequest(Map<String, Object> params){
-        APIJobs api =buildAPI(APIJobs.class, API);
+    private static Stream<JobData> executeRequest(Map<String, Object> params){
+        APIJobs api = buildAPI(APIJobs.class, API);
 
         return Stream.of(params)
                 .map(api::jobs)

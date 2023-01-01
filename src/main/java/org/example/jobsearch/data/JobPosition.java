@@ -1,4 +1,4 @@
-package org.example.jobsearch;
+package org.example.jobsearch.data;
 
 import com.google.gson.annotations.SerializedName;
 
