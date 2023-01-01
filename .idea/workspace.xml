@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="71495caf-a8b4-4f96-aa68-ecf2f52c8e16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/data/JobPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/JobSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/api/APIJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIArguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/cli/CLIFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/data/JobPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jobsearch/data/JobPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

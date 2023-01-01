@@ -4,7 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.Objects;
 
-public class JobPosition {
+public class
+
+JobPosition {
 
     @SerializedName("employer_name")
     private String company;
